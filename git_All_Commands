@@ -27,3 +27,9 @@ git push origin master
 git push -u origin master
 
 ================================
+
+create branch & push to remote repo 
+
+git checkout -b develop
+
+git push origin develop
