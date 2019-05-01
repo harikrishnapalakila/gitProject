@@ -8,3 +8,8 @@ git commit -m "this is 1st commit"
 
 git push -u origin master
 
+=================
+
+force full push command
+
+git push -f origin master
