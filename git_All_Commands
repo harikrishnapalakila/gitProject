@@ -2,3 +2,9 @@
 
 git init  
 
+git add .
+
+git commit -m "this is 1st commit"
+
+git push -u origin master
+
