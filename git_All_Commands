@@ -47,6 +47,10 @@ git push -u origin big_fix
 
 
 
+===================================
+=======
+
+
 
 this is new content
 
@@ -55,6 +59,22 @@ this is new content
 
 git update command
 
+git remote update 
+
+=======================================
+
+
+
+
+=====================
+hot fix branch create
+=====================
+
+this is new hotfix branch
+
+
+hotfix branch hotfixbranch hotfixbranch
+=======
 
 git remote update 
 =======
@@ -63,3 +83,4 @@ final conflict issue resloved
 
 
 this is hotfix branch created
+
