@@ -46,7 +46,7 @@ git commit -m "adding new branch bix_fix"
 git push -u origin big_fix
 
 
-===================================
+
 
 this is new content
 
@@ -55,4 +55,11 @@ this is new content
 
 git update command
 
+
 git remote update 
+=======
+
+final conflict issue resloved
+
+
+this is hotfix branch created
