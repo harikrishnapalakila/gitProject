@@ -35,3 +35,56 @@ git checkout -b develop
 git push origin develop
 
 this is stash content
+=======
+=================
+
+created new big fix branch & push into remote repo
+
+git checkout -b big_fix
+
+git add .
+git commit -m "adding new branch bix_fix"
+
+git push -u origin big_fix
+
+
+
+===================================
+=======
+
+
+
+this is new content
+
+
+==================================
+
+git update command
+
+git remote update 
+
+=======================================
+
+
+
+
+=====================
+hot fix branch create
+=====================
+
+this is new hotfix branch
+
+
+hotfix branch hotfixbranch hotfixbranch
+=======
+
+git remote update 
+=======
+
+final conflict issue resloved
+
+
+this is hotfix branch created
+============================================================================================================================================================================================
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@   after merge success/fix file @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
