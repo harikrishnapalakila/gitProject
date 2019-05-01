@@ -34,6 +34,11 @@ git checkout -b develop
 
 git push origin develop
 
+<<<<<<< HEAD
+=======
+this is stash content
+=======
+>>>>>>> d5fb9000ee82e1f914a3283e1b498d5216b35967
 =================
 
 created new big fix branch & push into remote repo
@@ -47,6 +52,13 @@ git push -u origin big_fix
 
 
 ===================================
+=======
+
+===================================
+=======
+
+
+=======
 
 this is new content
 
@@ -54,6 +66,12 @@ this is new content
 ==================================
 
 git update command
+
+=======
+=======
+
+git remote update 
+=======
 
 git remote update 
 
@@ -70,3 +88,17 @@ this is new hotfix branch
 
 
 hotfix branch hotfixbranch hotfixbranch
+=======
+=======
+
+git remote update 
+=======
+
+final conflict issue resloved
+
+
+this is hotfix branch created
+============================================================================================================================================================================================
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@   after merge success/fix file @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+=======
