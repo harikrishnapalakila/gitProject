@@ -33,3 +33,14 @@ create branch & push to remote repo
 git checkout -b develop
 
 git push origin develop
+
+=================
+
+created new big fix branch & push into remote repo
+
+git checkout -b big_fix
+
+git add .
+git commit -m "adding new branch bix_fix"
+
+git push -u origin big_fix
