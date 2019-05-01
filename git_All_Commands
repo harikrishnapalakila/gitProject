@@ -46,11 +46,6 @@ git commit -m "adding new branch bix_fix"
 git push -u origin big_fix
 
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 5b092ea9f80c184154fa133abbcd426cf017dbb6
-===================================
 
 this is new content
 
@@ -59,10 +54,13 @@ this is new content
 
 git update command
 
-<<<<<<< HEAD
+
+git remote update 
+=======
+
 git remote update 
 =======
 git remote update 
 =======
 
->>>>>>> 5b092ea9f80c184154fa133abbcd426cf017dbb6
+final conflict issue resloved
