@@ -120,3 +120,23 @@ rollback procees
 
 done the change for jsp , kindly check and confirm on the same
 
+
+
+====================================================
+
+tomcat pipeline
+
+
+
+
+jenkins server IP : 54.163.10.43
+
+/var/lib/jenkins/workspace
+
+Tomcat  Server IP : 174.129.52.209
+
+/opt/tomcat/apache-tomcat-8.5.40/webapps
+
+
+
+https://github.com/harikrishna12334/gitProject.git
