@@ -4,19 +4,19 @@ pipeline{
  agent any
  stages {
  
-  stage ('Compile Stage')          {steps {withMaven(maven: 'maven')      {sh 'mvn clean package'}}}
+  stage ('Compile Stage')          {steps {withMaven(maven: 'maven3.6.0')      {sh 'mvn clean package'}}}
 
-  stage ('Tesing Stage')            {steps {withMaven(maven: 'maven')      {sh 'mvn test'}}}
+  stage ('Tesing Stage')            {steps {withMaven(maven: 'maven3.6.0')      {sh 'mvn test'}}}
 
-  stage ('Deployment Stage')        {steps {withMaven(maven: 'maven')        {sh 'mvn deploy'}}}
+  stage ('Deployment Stage')        {steps {withMaven(maven: 'maven3.6.0')        {sh 'mvn deploy'}}}
   
-  stage ('tomcatserver')             {steps {withMaven(maven: 'maven')      {sh 'mvn tomcate'}}}
+  stage ('tomcatserver')             {steps {withMaven(maven: 'maven3.6.0')      {sh 'mvn tomcate'}}}
  
-  stage ('weblogic')                 {steps{withMaven(maven: 'maven')         {sh 'mvn weblogic'}}}
+  stage ('weblogic')                 {steps{withMaven(maven: 'maven3.6.0')         {sh 'mvn weblogic'}}}
 
-  stage ('ibm')   {steps {withMaven(maven: 'maven') {sh 'mvn ibm'}}}
+  stage ('ibm')   {steps {withMaven(maven: 'maven3.6.0') {sh 'mvn ibm'}}}
 
-  stage('jenkins')  {steps{withMaven(maven: 'maven7'){sh 'mvn 'clean package''}}}
+  stage('jenkins')  {steps{withMaven(maven: 'maven3.6.0'){sh 'mvn 'clean package''}}}
 
 
   
